@@ -90,10 +90,14 @@ Este flag aumenta el nivel de optimización para generar un binario más rápido
     - Generalmentenosotros incluimos biblitecas para nuestros archivos de c, por ejemplo en el caso de necesitar raices o herramientas matemáticas más complejas; o bien puede ser que tengamos varios archivos de C. Si solo tuvieramos en cuenta el archivo C original con su contendido, al no importar y combinar bibliotecas o archivos, el código no funcionaría. El archivo objeto no es ejecutable porque no está conectado con sus complementos, bibliotecas o funciones adicionales. Luego, el linker, los enlaza y permite su funcionamiento.
 
 3. ¿Qué diferencia existe entre el **código ensamblador** (.s) y el **código objeto** (.o)?
-    - 
-4. ¿Para qué sirve la opción `S` en GCC?
-5. ¿Qué sucede si omitimos la etapa de **linker**?
+    - El ensamblador es la primera parte de piner el código en un lenguaje de más bajo nivel, para que posteriormente la máquina lo lea. El código objeto, no es ejecutable, pero está listo para que por medio del linler se tenga un resultado ejecutable. 
 
+
+4. ¿Para qué sirve la opción `S` en GCC?
+    - Sirve para generar el código ensamblador, sin crear el ejecutable en ese paso.
+    
+5. ¿Qué sucede si omitimos la etapa de **linker**?
+    - Si omitimos la etapa del linker, no podemos enlazar los archivos o bibliotecas necesarias para la ejecución del código ni podríamos convertir el tipo objeto a lenguaje de máquina. 
 Incluye estas preguntas en tu bitácora y respóndelas después de realizar los ejercicios.
 
 ---
