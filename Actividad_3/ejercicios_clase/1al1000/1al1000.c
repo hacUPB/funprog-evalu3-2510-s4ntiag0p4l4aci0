@@ -7,7 +7,7 @@ int main()
     
     while (contador <= 1000) {
         
-        printf("iteración : %d\n", contador);
+        printf("Iteraci%cn : %d\n", 162, contador);
     
     contador++;
     }

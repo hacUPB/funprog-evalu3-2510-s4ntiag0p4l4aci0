@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 int main()
 {
@@ -6,7 +6,7 @@ int main()
     
     while (contador >= -199) {
         
-        printf("iteración : %d\n", contador);
+        printf("Iteraci%cn : %d\n", 162, contador);
     
     contador -=2;
     }

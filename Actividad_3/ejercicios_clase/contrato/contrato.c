@@ -3,7 +3,7 @@ int main() {
     int i;
     i= 1;
     int escoge;
-    printf("elija un número");
+    printf("Elija un n%cmero",163);
     scanf("%d", &escoge);
   printf("buzzbiss\n");
   
@@ -11,17 +11,17 @@ int main() {
         {
        
        if(i % 3 ==0 && i % 5 == 0)
-       {printf("buzzbiss\n");}
+       {printf("BuzzBiss\n");}
        else {
        if (i % 3 == 0)
-       {printf("buzz\n");}
+       {printf("Buzz\n");}
        
       if (i % 5 == 0)
-       {printf("biss\n");}
+       {printf("Biss\n");}
        
        else{printf("%d\n", i);}
        }
       i  +=1;
         }
-        return 0
+        return 0;
 }
