@@ -56,3 +56,17 @@ Analiza cuidadosamente el problema antes de escribir el código.  No hay una ún
 </aside>
 
 - Si se va a ejecutar dentro de un marco repetitivo controlado, es decir un determinado numero de repeticiones, es mejor usar el for, si por ejemplo, en el caso de los leds por protocolo se tenga que probar tres veces o algo por el estilo. Como la variable cambia durante la ejecución del loop, es mejor usar un do While. Si el primer valor se define fuera del loop, el While, sería la mejor opción. En el mismo menú de opciones se pone un ítem adicional para parar, y cuando el caso sea el de salir, se usa esa condición para salir del loop. 
+
+## 10. Ejercicios Propuestos
+
+1. **Condicional doble**: Escribe un programa que pregunte la edad y te indique si eres mayor o menor de edad.
+
+- [edad](./ejercicios_obligatorios/edad/)
+
+2. **`if-else if-else`**: Crea un programa que evalúe la calificación de un alumno (0-5) e imprima: "Insuficiente", "Aceptable", "Sobresaliente", etc.
+
+- [notas](./ejercicios_obligatorios/notas/)
+
+3. **Menú repetitivo**: Implementa un menú con al menos **cuatro** opciones y un bucle que permita seleccionar repetidamente cualquier opción hasta que se elija "Salir".
+
+- [menu](./ejercicios_obligatorios/menu/)
