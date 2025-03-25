@@ -13,7 +13,7 @@ int main()
   for(i=0; i <= numero; i++)
   {
       for(j=0; j <= i; j++)
-      {printf("%d ",j);}
+      {printf("%2d ",j);}
       
       printf("\n");
   }
@@ -24,7 +24,7 @@ int main()
   {
       for(j=0; j <= i; j++)
       
-      {printf("%d ",j);}
+      {printf("%2d ",j);}
       
       printf("\n");
   }
