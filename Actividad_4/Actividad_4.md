@@ -1,26 +1,21 @@
 ## 9. Preguntas de Control de Comprensión
 
 1. ¿Para qué sirve un prototipo de función?
+    - Como la función se va a utilizar en el main,y esta se define generalmente después del main, es necesario especificar su existencia, para que el programa la pueda utilizar.
+---
 
 2. ¿Cuál es la diferencia entre parámetros y argumentos?
+
+ - Los parámetros son las variables que se utilizan para la definiciónde la función, meitnras que los argumentos son los valores dados posteriormente, para ejecutar la función con ellos. 
+ ---
+
 3. ¿Qué sucede si no incluyes el archivo de cabecera de una función de biblioteca estándar?
+    - No se reconocen las funciones asociadas a este biblioteca, si no se incluye stdio.h, no se podría usar printf ni scanf; del mismo modo si no se incluye math.h y se pensaba trabajar con sqrt(), esta función no se reconocería.
+
 4. ¿Por qué `main()` es especial en C?
+    - Porque es la función principal, en esta se combian el resto de funciones. Un programa puede funcionar sin funciones adicionales, pero no sin main. De igual manera, al volver otras funciones librerías, main es la unica función necesaria para el programa.
+    ---
 5. ¿Qué ocurre si una función no retorna ningún valor?
 
+    - Nada, un claro ejemplo es cuando solamente imprime un valor.
 
-1. **Crear una función sin parámetros**
-    - Escribe una función que imprima en pantalla un mensaje de texto que le pases desde la función `main()`.
-    - Llama a esa función desde `main()`.
-2. **Funciones de biblioteca**
-    - Utiliza la función `sqrt()` de la biblioteca `<math.h>` para calcular la raíz cuadrada de un número ingresado por el usuario.
-    - Verifica que el número sea positivo; si es negativo, muestra un mensaje de error.
-3. **Pasar parámetros**
-    - Crea una función que reciba dos números y devuelva el **máximo** de ambos.
-    - Muestra el resultado en `main()`.
-4. **Funciones en archivos separados**
-    - Crea un archivo `.c` que defina una función `restar(int a, int b)`.
-    - Crea otro archivo `.h` que contenga el prototipo de `restar()`.
-    - En tu `main.c`, incluye el `.h`, llama a `restar()` y muestra el resultado.
-5. **Funciones Recursivas (Tema Avanzado)**
-    - Crea una función `factorial(int n)` que calcule el factorial de `n` usando recursividad.
-    - Añade una condición para terminar la recursión cuando `n <= 1`.
