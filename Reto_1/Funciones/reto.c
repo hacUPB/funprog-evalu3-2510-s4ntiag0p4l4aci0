@@ -76,11 +76,7 @@ void cargando(void){
 int menu(void){
 int opcion;
 printf("Men%c\n \
-    \t1. Ley de Ohm.\n\
-    \t2. Factor de Potencia.\n\
-    \t3. Resistencia de un Conductor.\n\
-    \t4. Valor de la Resistencia para un LED.\n\
-    \t5. Salir.\n\n\
+    \t1. Ley de Ohm.\n\t2. Factor de Potencia.\n\t3. Resistencia de un Conductor.\n\t4. Valor de la Resistencia para un LED.\n\t5. Salir.\n\n\
 Ingrese el n%cmero de la opci%cn\n", 163, 163, 162);
 
 scanf("%d", &opcion);
@@ -181,7 +177,7 @@ int case2(void) {
 
 
 void fac_pot(void) {
-	float s, fp, s, q, p, s2, p2, q2;
+	float s, fp, q, p, s2, p2, q2;
 	int opcion = case2();
 
 	while (opcion != 4) {
@@ -256,13 +252,7 @@ void fac_pot(void) {
 int case3(void) {
     int opcion;
     printf("Opciones:\n\
-    \t1. Plata\n\
-    \t2. Cobre\n\
-    \t3. Aluminio\n\
-    \t4. Hierro\n\
-    \t5. Platino\n\
-    \t6. Otro\n\
-    \t7. Salir\n\
+    \t1. Plata\n\t2. Cobre\n\\t3. Aluminio\n\t4. Hierro\n\t5. Platino\n\t6. Otro\n\t7. Salir\n\
 Ingrese el n%cmero de la opci%cn\n", 163, 163, 162 );
     scanf("%d", &opcion);
     return opcion;
