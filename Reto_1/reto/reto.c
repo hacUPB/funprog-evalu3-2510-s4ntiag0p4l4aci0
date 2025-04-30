@@ -233,7 +233,7 @@ void fac_pot(void) {
 
         else{
 
-            prinft("El cos(phi) es %p", p);
+            printf("El cos(phi) es %p", p);
             s2= s * s;
             p2 = p *p;
             q2 = s2 -p2;
